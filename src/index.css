@@ -1,0 +1,39 @@
+/*@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");*/
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(31, 66, 62);
+  overflow: hidden;
+}
+
+#quote-box {
+  background-color: rgb(216, 218, 188);
+  width: 600px;
+  border-radius: 5px 10px;
+  padding: 5px;
+}
+
+.flex {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+#author-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+#author {
+  font-style: italic;
+}
+
+#text {
+  font-size: 2em;
+  font-family: "Dancing Script";
+  font-weight: bold;
+}
